@@ -12,7 +12,7 @@ See, there is a directory called `docker` in root folder.<br>
 You have to add following entry to `/etc/hosts` file to load the laravel site and phpmyadmin. <br>
 `127.0.0.1 laraveldocker.local pma.laraveldocker.local`<br>
 
-#####Now you can up your site on docker containers by:<br>
+<strong>Now you can up your site on docker containers by:</strong><br>
 Stop all other proceses running on port 80.<br>
 Ex: If apache is running on port 80, you have to stop it before run the below command.<br>
 `docker-compose up -d`<br>
