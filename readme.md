@@ -5,6 +5,7 @@ This can be run in following docker containers.
 - Nginx 1.14
 - Php 7.1
 - MySql 5.7
+- Phpmyadmin
 
 You can change above versions as you wish.<br>
 See, there is a directory called `docker` in root folder.<br>
