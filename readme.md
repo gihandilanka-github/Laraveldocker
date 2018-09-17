@@ -21,6 +21,9 @@ Ex: If apache is running on port 80, you have to stop it before run the below co
 Now you can access the site [http://laraveldocker.local](http://laraveldocker.local).<br>
 phpmyadmin [http://pma.laraveldocker.local](http://pma.laraveldocker.local).
 
+When you want run artisan command in project, do like below.<br>
+`docker-compose exec app php artisan migrate`.
+
 There is a `User` module. You can refer it as an example. You can see the repository design pattern and how it's working in user module.
 
 To stop the containers you can run `docker-compose kill`. If you'd like to remove them all together, after stopping run `docker-compose rm`.
